@@ -1,5 +1,5 @@
 streamlit
-tensorflow>=2.12.0
-numpy  # Explicitly include other dependencies if needed
+tensorflow==2.17.0
+numpy
 pillow
 gdown
