@@ -1,6 +1,8 @@
 import streamlit as st
 import numpy as np
-from tensorflow.keras.models import load_model
+import tensorflow as tf
+model = tf.keras.models.load_model('https://drive.google.com/file/d/1iwWCz2DIu9dSPHTAbE06EIuFjnADpnJl/view?usp=drive_link')
+
 from tensorflow.keras.preprocessing import image
 from PIL import Image
 import os
